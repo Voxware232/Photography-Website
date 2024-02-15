@@ -1,3 +1,7 @@
 // Add JavaScript functionality if needed
-// For example, for interactive gallery features
-// or to fetch images from a server dynamically.
+const themeToggle = document.getElementById("theme-toggle");
+const body = document.body;
+
+themeToggle.addEventListener("change", () => {
+  body.classList.toggle("dark-mode");
+});
